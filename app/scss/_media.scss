@@ -1,0 +1,83 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+	
+}
+// ≥992px
+@include media-breakpoint-down(md) {
+	.login {
+		
+		&__button {
+			
+			&--register {
+				padding: 1rem 4rem;
+			}
+			
+			&--reset {
+				padding: 1rem 5rem;
+			}
+
+		}
+		
+	}
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+	
+	.login {
+		
+		&__form {
+			padding: 1rem 1.5rem;
+			margin: 3rem;
+		}
+		
+		&__title {
+			font-size: 2.5rem;
+		}
+		
+		&__buttons {
+			display: block;
+			margin-bottom: 5rem;
+		}
+		
+		&__button {
+			width: 100%;
+			&:not(:first-child) {
+				margin-top: 1rem;
+			}
+		}
+	}
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+	
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+	
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+	
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+	
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}
