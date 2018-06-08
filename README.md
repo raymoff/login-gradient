@@ -1,6 +1,9 @@
 # Login page with linear-gradient background
 
 Simple login page made with bootstrap 4, sass & gulp.
-Feel free to download & modify it!
+
+Install all npm packages in order to start editing & customizing file projects.
+
+Feel free to use it for any purpose!
 
 [View live preview](https://raymoff.github.io/login-gradient "Preview")
